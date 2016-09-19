@@ -15,6 +15,6 @@ I ran the following command to extract the file after installing LZIPRecover:
 
 > wine plzip-1.5-rc2.win64.exe -d data
 
-I put wine before the actual command, because plzip is a Windows Executable. Wine is open-source software for Linux to run Windows Executables. (https://www.winehq.org/)
+I put wine before the actual command, because plzip is a Windows Executable. Wine is open-source software for Linux to run Windows Executables. (https://www.winehq.org/) <br/>
 The resulting file is a JPG-file, containing the flag on the image:
 > IceCTF{h3XduMp1N9_l1K3_A_r341_B14Ckh47}
