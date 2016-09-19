@@ -31,7 +31,7 @@ Those kind of tokens can be decoded using several websites. I used:
 The string to decode from jwt_token:
 > eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmbGFnIjoiSWNlQ1RGe2pXN190MEszbnNfNFJlX25PX3AxNENFX2ZPUl81M0NyRTdTfSIsInVzZXIiOiJoYW5zd29yc3Q1In0.ikOBIuQg7PKG3PMGOn8IYXyp5kHY6I99PVi1TwLWRIA
 
-The decoded data:
+The decoded data: <br/>
 Header
 > {
 >  "typ": "JWT",
