@@ -10,7 +10,7 @@ The command converts the hexdump to binary data, meaning file "data" is now a bi
 Using the following command, we check what kind of file this is:
 > file data
 
-According to the magic header, shown by command "file", data is an LZIP-file which is an archive file format. To extract this file, I used: http://www.nongnu.org/lzip/lziprecover.html
+According to the magic header, shown by command "file", data is an LZIP-file which is an archive file format. To extract this file, I used: http://www.nongnu.org/lzip/lziprecover.html.
 I ran the following command to extract the file after installing LZIPRecover:
 
 > wine plzip-1.5-rc2.win64.exe -d data
