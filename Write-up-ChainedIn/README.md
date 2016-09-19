@@ -6,7 +6,7 @@ The website URL was:
 > http://chainedin.vuln.icec.tf/
 
 The website shows 2 buttons and information in the right lower corner. Both buttons lead to the login page, where we can login using the given credentials. (agent1568:agent1568)
-After logging in the website shows "Welcome back Agent1568". According to the information we have from the webpage, the website is running on MongoDB and AngularJS. This means, SQL injection won't work here as MongoDB does not make use of SQL.
+After logging in the website shows "Welcome back Agent1568". According to the information we have from the webpage, the website is running on MongoDB and AngularJS. This means, SQL injection won't work here as MongoDB does use SQL.
 
 Using Burp Suite I tried a known MongoDB injection, where I can login as another user.
 The attempt resulted in the following POST-request to the ChainedIn login page:
