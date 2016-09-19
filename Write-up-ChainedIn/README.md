@@ -50,5 +50,5 @@ What does the bashscript do?
 * Brute forces the password using the MongoDB $regex function and a known alphabet, containing only capital & non-capital alphabetic letters, digits and the special characters _}{
 * Checks if the given string matches the password in the MongoDB table. If so, it saves the current value and adds another character (until character = })
 
-After approximately 3-4 minutes the password was guessed, which was also the flag:
+After approximately 3-4 minutes the password was guessed, which (if IceCTF{ is added to it) is also the flag:
 > IceCTF{I_thOugHT_YOu_coulDNt_inJeCt_noSqL_tHanKs_monGo}
